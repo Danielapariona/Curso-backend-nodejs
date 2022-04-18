@@ -1,8 +1,8 @@
 {
-  "name": "desafio_2",
+  "name": "clase_06_servidores_web",
   "version": "1.0.0",
   "description": "",
-  "main": "desafio_2_express.js",
+  "main": "express.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
