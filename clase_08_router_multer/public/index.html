@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="/static/css/style.css">
+</head>
+
+<body class="rojo">
+
+    <h1 id="azul">Hola coders</h1>
+    <h2 class="rojo negrita">Esto es un subtitulo</h2>
+    <h3>Esto es un subtitulo</h3>
+
+
+    <img src="/static/images/pikachu.png" alt="Imagen de pikachu">
+
+    <button id="boton">boton</button>
+
+    <!-- FORMULARIO -->
+    <h3>Formulario 1</h3>
+    <form action="/api/uploadfile" enctype="multipart/form-data" method="post">
+        <input type="file" name="myFile">
+        <input type="submit" value="Upload a file">
+    </form>
+
+    <h3>Formulario 2</h3>
+
+    <form action="/api/uploadmultiple" enctype="multipart/form-data" method="post">
+        Select images <input type="file" name="myFiles" multiple />
+        <input type="submit" value="Upload your files">
+    </form>
+
+
+    <h3>Formulario productos</h3>
+
+    <form action="/api/productos" method="post">
+        <input type="text" name="nombre">
+        <input type="number" name="precio">
+        <input type="submit" value="Submit a product">
+    </form>
+
+
+    <!-- SCRIPT -->
+    <script src="/static/js/index.js"></script>
+</body>
+
+</html>
